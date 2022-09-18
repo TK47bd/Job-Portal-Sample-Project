@@ -1,0 +1,22 @@
+input{
+	width: 50% !important;
+	margin-bottom: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[id=PhoneNumber] {
+  -moz-appearance: textfield;
+}
+
+input[type="radio"]{
+	width: 11px !important;
+}
+
+.req{
+	color: red !important;
+}

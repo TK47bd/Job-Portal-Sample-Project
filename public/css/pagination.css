@@ -1,0 +1,45 @@
+.navCust{
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.innerCard{
+    position: relative;
+    display: -ms-inline-grid !important;
+    display: inline-block !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 25rem;
+}
+
+.sideimg{
+    width: 30%;
+}
+
+.pnPos{
+    margin-left: 7rem !important;
+}
+
+.container{
+    padding-bottom: 12px;
+}
+
+@media screen and (max-width: 780px) {
+    .gap{
+        margin-top: 35px;
+    }
+    .side2{
+        margin-top: 35px;
+    }
+    .innerCard {
+      width: 15rem !important;
+    }
+    .pnPos{
+        margin-left: 0rem !important;
+    }
+}

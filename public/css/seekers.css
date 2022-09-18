@@ -1,0 +1,21 @@
+.seek_info tr{
+	width: 90%;
+}
+.seek_info td{
+	display: contents;
+	padding: 5px;
+	width: 60% !important;
+}
+.seek_info td img{
+	padding: 4px;
+}
+.seek_info td span{
+	padding: 4px;
+}
+.seek_info td a{
+	text-decoration: none;
+	color: black;
+}
+.seek_info td a:hover{
+	color: blue;
+}

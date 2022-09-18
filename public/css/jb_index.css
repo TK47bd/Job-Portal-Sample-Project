@@ -1,0 +1,200 @@
+*{margin: 0; padding: 0;}
+.secondaryNav{
+    height: 27px !important;
+    background-color: #1d087d !important;
+}
+.backgroundCust{
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    background-image: url(images/white-blank-notebook-733857.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.navCust{
+    filter: opacity(0.5);
+}
+.navbar-navCust{
+    margin-left: 100% !important;
+}
+.socialLink{
+    margin-left: 75% !important;
+}
+.titleTxt{
+    bottom: 260px !important; 
+}
+.titleCust{
+    font-family: cursive;
+}
+.cliCust{
+    width: 45%;
+    position: relative;
+    display: -ms-inline-grid !important;
+    display: inline-block !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    -webkit-border-top-right-radius: 100px;
+    -webkit-border-bottom-right-radius: 100px;
+    -moz-border-radius-topright: 100px;
+    -moz-border-radius-bottomright: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 5px 10px 10px 5px darkgrey;
+    bottom: -315px;
+}
+.canCust{
+    width: 45%;
+    position: relative;
+    display: -ms-inline-grid !important;
+    display: inline-block !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    -webkit-border-top-left-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -moz-border-radius-topleft: 100px;
+    -moz-border-radius-bottomleft: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    box-shadow: 5px 10px 10px 5px darkgrey;
+    bottom: -315px;
+}
+.cliCust:hover{
+    background-color: wheat !important;
+}
+.canCust:hover{
+    background-color: wheat !important;
+}
+
+.middle{
+    margin-top: 6rem!important;
+}
+.title{
+    margin-left: 45% !important;
+}
+.overlay{ 
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transform: scale(0);
+    transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+.overlay a {
+    height: 40px;
+    width: 40px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.xploreImg .xploreOne:hover .overlay{
+    transform: scale(1);
+}
+.xploreImg .xploreTwo:hover .overlay{
+    transform: scale(1);
+}
+.xploreImg .xploreThree:hover .overlay{
+    transform: scale(1);
+}
+.features_wrap{
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    background-image: url(images/man-using-laptop-on-table-against-white-background-257897.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.features_in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+.fps{
+    width: 20%;
+}
+.afterFooter{
+    background-color: #000000d9;
+    height: 200px;
+    width: 100%;
+}
+.leftAF{
+    color: white;
+    width: 25%;
+}
+.footerCust{
+    background: #060404;
+    text-align: center;
+}
+@media screen and (max-width: 995px){
+    .fps{
+        width: 15% !important;
+    }
+}
+@media screen and (max-width: 767px){
+    .candidateCust{
+        float:  left !important;
+        margin-top: 20px;
+    }
+    .middle{
+        margin-top: 18rem!important;
+    }
+    .paraCust{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 656px){
+    .candidateCust{
+        float:  left !important;
+        margin-top: 20px;
+    }
+    .navbar-navCust{
+        margin-left: 50% !important;
+    }
+    .middle{
+        margin-top: 24rem!important;
+    }
+    .socialLink{
+        margin-left: 60% !important;
+    }
+    .paraCust{
+        font-size: 10px !important;
+    }
+    .btnCust{
+        margin-left: 20% !important;
+    }
+    .btnCust .btn{
+      	margin-left: 20px !important;
+    }
+}
+@media screen and (max-width: 430px){
+    .fps{
+        width: 10% !important;
+    }
+    .btnCust{
+        margin-left: -2% !important;
+    }
+}

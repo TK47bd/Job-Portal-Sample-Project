@@ -1,0 +1,90 @@
+*{margin: 0; padding: 0;}
+.pImg{
+    height: 1070px;
+    background: #67e8e8;
+    width: 240px !important;
+}
+.innerCard{
+    position: relative;
+    width: 13rem;
+    display: -ms-inline-grid !important;
+    display: inline-block !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+.checkUn_wrap{
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 104px;
+    display: inline-block;
+    position: relative;
+}
+.rStarCust{
+    color: rgb(41, 35, 35) !important;
+}
+.rStarCust:hover{
+    background-color: #67e8e8 !important;
+    color: yellow !important;
+}
+.reView{
+    display: inline-block;
+    margin-left: 3.5rem;
+}
+.detailsTitle{
+    color: #5a5a5a;
+}
+.detailsTxt{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.midBorder{
+    border-right: 2px solid black;
+}
+.dbCust{
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.msgBox{
+    margin-top: 50px !important;
+    margin-left: 50px !important;
+}
+.selective{
+    margin: 0;
+    margin-left: -1px !important;
+    padding: 1rem 1.3rem !important;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+input[type="submit"]{
+    width: auto !important;
+    margin: 0 !important;
+}
+@media screen and (max-width: 767px){
+    .pImg{
+        height: 460px !important;
+        width: 240px !important;
+        margin-left: 20% !important;
+    }   
+    .dbCust{
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 350px){
+    .pImg{
+        height: 460px !important;
+        width: 240px !important;
+        margin-left: 12% !important;
+    }   
+}
+@media screen and (max-width: 300px){
+    .pImg{
+        height: 460px !important;
+        width: 240px !important;
+        margin-left: 7% !important;
+    }   
+}
